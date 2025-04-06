@@ -123,10 +123,9 @@ int main() {
         {"value", bin_op_node}
     };
 
-    // Generate code
+
     generator.generate(assign_node);
 
-    // Print instructions
     cout << "Generated Instructions:\n-------------------------\n";
     for (const auto& instr : generator.get_instructions()) {
         cout << instr << endl;
