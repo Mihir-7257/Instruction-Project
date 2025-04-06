@@ -1,0 +1,34 @@
+# Build files
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+
+# IDE folders
+.vscode/
+.idea/
+*.code-workspace
+
+# CMake build directory
+build/
+
+# Compiled files
+*.a
+*.lib
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files (if using with C++ + Python scripts)
+.env
+
+# Output
+output.txt
