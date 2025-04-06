@@ -14,10 +14,10 @@ This is a simple compiler project written in Python. It takes arithmetic express
 
 ## How It Works
 
-1. **Lexical Analysis**: `lexer.py` reads the input string and splits it into tokens (numbers, operators, variable names, etc.).
-2. **Parsing**: `parser.py` turns those tokens into an AST (tree representation of the equation).
-3. **Code Generation**: `codegenerator.py` walks the AST and outputs simple pseudo-assembly instructions.
-4. **Execution**: `main.py` runs everything interactively and shows you both the instructions and evaluated result.
+1. Lexical Analysis**: `lexer.py` reads the input string and splits it into tokens (numbers, operators, variable names, etc.).
+2. Parsing**: `parser.py` turns those tokens into an AST (tree representation of the equation).
+3. Code Generation**: `codegenerator.py` walks the AST and outputs simple pseudo-assembly instructions.
+4. Execution**: `main.py` runs everything interactively and shows you both the instructions and evaluated result.
 
 
 You'll see a prompt where you can enter expressions like:
@@ -36,17 +36,13 @@ x + y * 2
 
 ## Example Output
 
-**Input:**
-
-```
+Input:
 x = 4
 y = 2
 x + y
-```
+
 
 **Output:**
-
-```
 Generated Instructions:
 LOAD R0, 4                     ; Load constant 4
 MOV R1, R0                     ; Store into variable x
