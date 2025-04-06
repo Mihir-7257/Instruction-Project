@@ -1,34 +1,16 @@
-# Build files
-*.o
-*.obj
-*.so
-*.dll
-*.exe
-*.out
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 
-# IDE folders
+# IDE
 .vscode/
 .idea/
-*.code-workspace
 
-# CMake build directory
-build/
-
-# Compiled files
-*.a
-*.lib
-
-# Temporary files
-*.log
-*.tmp
-*.bak
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment files (if using with C++ + Python scripts)
+# Environment
+venv/
+env/
 .env
 
-# Output
-output.txt
+# Output files
+output.txt 
